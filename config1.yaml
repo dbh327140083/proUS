@@ -1,10 +1,10 @@
 proxies:
-  - name: "SS-Server"
+  - name: "SS-Server-US"
     type: ss
-    server: "43.162.111.97"
+    server: "43.162.111.97"         # 替换为实际的服务器 IP
     port: 8388
-    cipher: chacha20-ietf-poly1305
-    password: "2yWwygVKuIBt"
+    cipher: chacha20-ietf-poly1305  # 与原配置中的 method 一致
+    password: "2yWwygVKuiBt"        # 与原配置中的 password 一致
     udp: true
 
 proxy-groups:
