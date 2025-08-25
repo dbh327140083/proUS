@@ -4,7 +4,7 @@ proxies:
     server: "43.162.111.97"          # 服务器 IP 地址
     port: 8388
     cipher: chacha20-ietf-poly1305   # 加密方式
-    password: "2yWwygVKuiBt"         # 密码
+    password: "2yWwygVKuIBt"         # 密码
     udp: true
 
 proxy-groups:
