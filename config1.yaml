@@ -3,7 +3,7 @@ proxies:
     type: ss
     server: "43.162.111.97"
     port: 8388
-    cipher: chacha20-ietf-poly1305
+    cipher: aes-256-cfb
     password: "sdgf34tgfh"
     udp: true
 
