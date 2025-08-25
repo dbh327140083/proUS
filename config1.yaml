@@ -1,17 +1,17 @@
 proxies:
-  - name: "SS-Server"
+  - name: "SS-Server"               # 确保代理名称与代理组一致
     type: ss
-    server: "43.162.111.97"         # 替换为实际的服务器 IP
+    server: "43.162.111.97"          # 服务器 IP 地址
     port: 8388
-    cipher: chacha20-ietf-poly1305  # 与原配置中的 method 一致
-    password: "2yWwygVKuiBt"        # 与原配置中的 password 一致
+    cipher: chacha20-ietf-poly1305   # 加密方式
+    password: "2yWwygVKuiBt"         # 密码
     udp: true
 
 proxy-groups:
   - name: "PROXY"
     type: select
     proxies:
-      - "SS-Server"
+      - "SS-Server"                 # 确保引用的代理与 proxies 中的名称一致
 
 rules:
   - DOMAIN-SUFFIX,google.com,PROXY
