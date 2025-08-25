@@ -1,5 +1,5 @@
 proxies:
-  - name: "SS-Server-US"
+  - name: "SS-Server"
     type: ss
     server: "43.162.111.97"         # 替换为实际的服务器 IP
     port: 8388
